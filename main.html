@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Anime</title>
+    <link rel="stylesheet" href="./hmm.css">
+</head>
+
+<body> 
+
+    <div id="background">
+        <img id= "background1" src="https://i.pinimg.com/736x/be/39/28/be3928cba11858ed7c83eab4bf7337ed.jpg" alt="">
+        <img id= "background2" src="https://i.pinimg.com/736x/1a/17/99/1a1799de722409bc846678400c515e26.jpg" alt="">
+        <div id="radio"><img src="https://easydrawingguides.com/wp-content/uploads/2020/12/how-to-draw-a-radio-featured-image-1200.png" alt=""></div>
+        <div id="title"><h2>Web Anime</h2></div>
+        <h1 id="watchScreen"></h1>       
+        <div id="screen"><h1 id="inScreen"><b>&nbsp;&nbsp;Click <br>to start!</b></h1></div>             
+    </div>    
+
+    <div id="contain">
+        <div id="menu_anime"><h2 id="a1"></h2></div>               
+    </div>
+    
+    <div id="contain2">
+        <div id="warning" style="position: fixed; width: 30%; height: 6%;top: -8%; display: flex; justify-content: center; align-items: center; background-color: white; color:rgb(77, 77, 250);font-family: 'Times New Roman', Times, serif; text-align:center; transition:all 1s"></div>
+        <div id="radioExit"><img src="https://easydrawingguides.com/wp-content/uploads/2020/12/how-to-draw-a-radio-featured-image-1200.png" alt=""></div>
+        <img id= 'gif' src="https://i.redd.it/j68updlkoyj71.gif" alt="">
+        <img id= 'heart' style= 'position:fixed; display:flex; width: 5%; right:-20%; bottom: 10%; cursor:pointer; transition: all 1s' src="https://phunugioi.com/wp-content/uploads/2020/11/tranh-to-mau-trai-tim-hinh-ve-don-gian.png" alt="">
+        <div id="listener"></div>
+        <p id= 'musicTime' style="position: fixed; display: flex; left:10%; top:60%; transition: all 1s;"></p>
+        <p id= 'volume&bar' style="position: fixed; display: flex; bottom: -25%; ">
+            <label for="musicVolume">Volume</label>
+            <input type="range" id="musicVolume" value="100">
+            <label for="musicVolume" id="volumeLabel">100%</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="musicTimeline">Music Time</label>
+            <input type="range" id="musicTimeline" value="0" max=""> 
+        </p>
+        <h1 id="Songnumber" style="position:absolute;"></h1>
+        <div id="musicScreen">
+            <div id="title2">
+                <button id="musicButtonprevious" style="cursor:pointer"><p style="width:90px; height:20%; font-size:x-large; cursor:pointer">⏮️</p></button>
+                <button id="musicButtonplay" style="cursor:pointer"><p style="width:90px; height:20%; font-size:x-large; cursor:pointer">▶️</p></button>
+                <button id='musicButtonnext' style="cursor:pointer"><p style="width:90px; height:20%; font-size:x-large; cursor:pointer">⏭️</p></button>      
+            </div>
+        </div>   
+        
+        <label id='label' for="finder" style="position: fixed; right:12%; top: -15%; transition: all 1s;">Tìm kiếm
+            <button id= 'resetFinder' style="cursor: pointer; transition: all 1s;">🔁</button>
+        </label>
+        <input id="finder" type="text" name='finder' placeholder=" Nhập tên nhạc muốn tìm...">       
+        <button id='search' style="position: fixed; right:6%; top: -25%; cursor: pointer; transition: all 1s; color:rgba(0, 0, 0, 0.65);">Search</button>
+        <button id="playFavouriteMusic" style="position: fixed; width: 5%;height: 6%; left:15%; bottom: -20%; cursor: pointer; transition: all 1s; color:rgba(0, 0, 0, 0.7); border-radius:10px; border: solid grey">💗</button>      
+    
+        <div id="searchingResultsBlock"></div>
+
+    </div>
+
+       
+</body>
+
+<script src="./hi.js"> </script>
+</html>
+
