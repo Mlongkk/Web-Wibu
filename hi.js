@@ -90,7 +90,7 @@
     
     
     //music
-    let music= new Audio('./music/Luminous Entities Lost Heart.mp3');
+    let music= new Audio('Luminous Entities Lost Heart.mp3');
     let checkTime=0;
     let autoRunRadio='Off';
     let musicTime= document.getElementById('musicTime');
